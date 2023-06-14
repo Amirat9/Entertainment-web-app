@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@layer components {
+  .body-m {
+    @apply text-[15px] text-white font-light leading-[19px];
+  }
+  .body-s {
+    @apply text-[13px] text-white font-light leading-4 opacity-75;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-[32px] text-white font-light leading-10 tracking-[-0.5px];
+  }
+  h2 {
+    @apply text-2xl text-white font-light leading-[30px];
+  }
+  h3 {
+    @apply text-2xl text-white font-medium leading-[30px];
+  }
+  h4 {
+    @apply text-lg text-white font-medium leading-[23px];
+  }
+}
+
+body {
+  background-color: #10141e;
+  font-family: 'Outline', sans-serif;
+}
